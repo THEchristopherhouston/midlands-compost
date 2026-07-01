@@ -15,7 +15,6 @@ body {
     display: flex;
     flex-flow: column;
     background-color: rgb(219, 219, 219);
-    justify-content: space-between;
     align-items: center;
 }
 
