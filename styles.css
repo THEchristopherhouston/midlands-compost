@@ -1,48 +1,20 @@
-
-body {
-
-    background-image: url(images/home-background.jpg);
-}
-
-#title {
-    font-size: 100px
-}
-
-.header {
-    
-    border: 2px rgb(0, 0, 0) solid;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+.header-banner {
     display: flex;
-    flex-flow: column;
-    background-color: rgb(219, 219, 219);
-    align-items: center;
+    flex-direction: column;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.title {
+    text-align: center;
+}
+.subheadings {
+    display: flex;
+    justify-content: center;
+    gap: 400px;
+    
 }
 
 .header-links {
-    font-size: 50px;
-    display: flex;
-    flex: 1 1 auto;
-    gap: 250px;
-    padding: 5px;
-    list-style: none;
-
-}
-.link {
-
-    text-decoration: none;
-
-}
-#products-title {
-    font-size: 40px;
     display: flex;
     justify-content: center;
-    background-color: transparent;
+    gap: 100px;
 }
-
-#products-title-text {
-    padding: 10px;
-    background-color: rgb(219, 219, 219);
-    border: 2px black solid;
-    border-radius: 8px;
-}
-
