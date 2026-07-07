@@ -1,21 +1,59 @@
+body {
+    margin: 0;
+}
+
 .header-banner {
     display: flex;
     flex-direction: column;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background-image: url(./images/banner-flower.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 0;
 }
 .title {
     text-align: center;
+    color: white;
+    font-size: 56px;
+
 }
+
+.title h1 {
+ -webkit-text-stroke: 3px black;
+ letter-spacing: -4px;
+ font-weight: 900;
+ margin-bottom: 0;
+}
+
 .subheadings {
+    
     display: flex;
     justify-content: center;
     gap: 400px;
+    color: white;
+    -webkit-text-stroke: 2px black;
+    font-size: 48px;
     
+}
+.subheadings h2 {
+    margin: 0 0 50px 0;
 }
 
 .header-links {
+    margin: 0;
+    padding: 20px;
     display: flex;
     justify-content: center;
-    gap: 100px;
+    color: rgb(236, 159, 50);
+    gap: 150px;
+    background-color: rgb(39, 35, 35);
+}
+
+.header-links li {
+    font-size: 36px;
+    list-style-type: none;
+}
+.header-links a {
+        text-decoration: none;
+            color: rgb(236, 159, 50);
 }
