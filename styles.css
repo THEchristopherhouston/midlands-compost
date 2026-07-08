@@ -1,11 +1,11 @@
 body {
     margin: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .header-banner {
     display: flex;
     flex-direction: column;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background-image: url(./images/banner-flower.jpg);
     background-position: center;
     background-size: cover;
@@ -19,7 +19,8 @@ body {
 }
 
 .title h1 {
- -webkit-text-stroke: 3px black;
+ -webkit-text-stroke: 6px black;
+ paint-order: stroke fill;
  letter-spacing: -4px;
  font-weight: 900;
  margin-bottom: 0;
@@ -31,7 +32,8 @@ body {
     justify-content: center;
     gap: 400px;
     color: white;
-    -webkit-text-stroke: 2px black;
+    -webkit-text-stroke: 4px black;
+    paint-order: stroke fill;
     font-size: 48px;
     
 }
@@ -56,4 +58,46 @@ body {
 .header-links a {
         text-decoration: none;
             color: rgb(236, 159, 50);
+}
+
+.first-section {
+    background-color: rgba(233, 131, 47, 0.93);
+    display: flex;
+    flex-direction: column;
+    font-size: 48px;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+.first-section-header h1{
+    margin:  0;
+    -webkit-text-stroke: 7px rgb(86, 41, 41);
+    paint-order: stroke fill;
+    font-weight:1000;
+}
+
+.first-section-header h2 {
+    margin: 0;
+    margin-bottom: 50px;
+    font-size: 42px;
+    color: rgb(74, 47, 100);
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+
+}
+
+.first-section-body {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    color: black;
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+}
+
+.first-section-body-first-column {
+    text-align: end;
+}
+
+.first-section-body-second-column {
+    text-align: center;
 }
